@@ -6,7 +6,7 @@
 2. Run the following command to install dependencies:
 
     ```bash
-    pip install -r requirements.txt
+    pip install 
     ```
 
 3. Activate the virtual environment:
