@@ -1,9 +1,29 @@
-1.firstly download the project and database download to /schooldata directory
-2. run the command 
-            pip install
-            myprojectenv\Scripts\activate
+# School Data Project
 
- after that run change the directory
-            cd schooldata
- after run the server
-            py manage.py runserver
+## Installation
+
+1. Firstly, download the project and database and place them in the `/schooldata` directory.
+2. Run the following command to install dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Activate the virtual environment:
+
+    ```bash
+    myprojectenv\Scripts\activate
+    ```
+
+4. Change directory to the project folder:
+
+    ```bash
+    cd schooldata
+    ```
+
+## Running the Server
+
+Once you've installed dependencies and activated the virtual environment, run the following command to start the server:
+
+```bash
+py manage.py runserver
